@@ -1,0 +1,3 @@
+[submodule "main/edcoin"]
+	path = main/edcoin
+	url = https://github.com/angelods1991/testing.git
