@@ -17,6 +17,7 @@ class BonusModel extends Model
 
     public function checkLevel($bonus_level)
     {
+        echo "text";
         return DB::table($this->bonus_table)->where('bonus_level','=',$bonus_level)->count();
     }
 
